@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../Css-Odev1/images/bs.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif ;
+    overflow-x: hidden;
+    text-align: center;
+    padding-left: 15px;
+}
+body,html {
+    padding:0;
+    margin:0;
+    height: 100%;
+}
+.red {
+    color: rgb(245, 7, 7);
+}
+.blue {
+    color:blue;
+}
+.list-none {
+    list-style-type:none;
+}
+.inline-block {
+    display:inline-block;
+}
+.list {
+    float:left;
+    margin-right:25px;
+    font-weight: bold;
+    font-size:1.25em;
+    
+}
+.list-inside {
+    list-style-position:inside;
+    font-weight: bold;
+}
+.bold {
+    font-size:1.70em;
+    font-weight: bold;
+}
+.ebat {
+    width: 470px;
+    height: 470px;
+    border-radius: 25px;
+}
+a {
+    color:darkorange;
+}
+
